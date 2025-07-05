@@ -139,6 +139,121 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Creators Section */}
+      <section className="bg-[#1a1a1A] py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <h3 className="text-4xl font-bold text-center mb-4">
+              Сообщество создателей
+            </h3>
+            <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
+              Познакомьтесь с талантливыми ютуберами и мододелами, которые
+              создают удивительный контент для Incredibox
+            </p>
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* REM Card */}
+              <div className="bg-[#2d2d2d] p-6 rounded-lg hover:bg-[#333333] transition-colors duration-300">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-[#0066ff] rounded-full flex items-center justify-center mr-4">
+                    <Icon name="User" size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white">REM</h4>
+                    <p className="text-gray-400 text-sm">Мододел</p>
+                  </div>
+                </div>
+                <p className="text-gray-300 mb-4">
+                  Один из самых известных создателей модов для Incredibox.
+                  Создает качественные и креативные моды с уникальными звуками и
+                  стилями.
+                </p>
+                <div className="flex items-center text-sm text-gray-400">
+                  <Icon
+                    name="Star"
+                    size={16}
+                    className="text-yellow-400 mr-1"
+                  />
+                  <span>Известен за качество модов</span>
+                </div>
+              </div>
+
+              {/* Artem Kopych Card */}
+              <div className="bg-[#2d2d2d] p-6 rounded-lg hover:bg-[#333333] transition-colors duration-300">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-[#0066ff] rounded-full flex items-center justify-center mr-4">
+                    <Icon name="Youtube" size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white">
+                      Artem Kopych
+                    </h4>
+                    <p className="text-gray-400 text-sm">Ютубер</p>
+                  </div>
+                </div>
+                <p className="text-gray-300 mb-4">
+                  Популярный ютубер, создающий обзоры модов Incredibox и реакции
+                  на треки. Помогает продвигать творчество сообщества.
+                </p>
+                <div className="flex items-center text-sm text-gray-400">
+                  <Icon name="Play" size={16} className="text-red-400 mr-1" />
+                  <span>Обзоры и реакции</span>
+                </div>
+              </div>
+
+              {/* Coldseamer Card */}
+              <div className="bg-[#2d2d2d] p-6 rounded-lg hover:bg-[#333333] transition-colors duration-300">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-[#0066ff] rounded-full flex items-center justify-center mr-4">
+                    <Icon name="Zap" size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-white">
+                      Coldseamer
+                    </h4>
+                    <p className="text-gray-400 text-sm">Мододел</p>
+                  </div>
+                </div>
+                <p className="text-gray-300 mb-4">
+                  Талантливый создатель модов, известный своими
+                  экспериментальными подходами и необычными звуковыми решениями
+                  в Incredibox.
+                </p>
+                <div className="flex items-center text-sm text-gray-400">
+                  <Icon
+                    name="Lightbulb"
+                    size={16}
+                    className="text-blue-400 mr-1"
+                  />
+                  <span>Экспериментальные моды</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <p className="text-gray-400 mb-6">
+                Хотите стать частью сообщества создателей?
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <a
+                  href="#"
+                  className="px-6 py-3 bg-[#2d2d2d] text-white rounded-lg hover:bg-[#333333] transition-colors duration-300 flex items-center"
+                >
+                  <Icon name="Youtube" size={20} className="mr-2" />
+                  YouTube канал
+                </a>
+                <a
+                  href="#"
+                  className="px-6 py-3 bg-[#2d2d2d] text-white rounded-lg hover:bg-[#333333] transition-colors duration-300 flex items-center"
+                >
+                  <Icon name="Users" size={20} className="mr-2" />
+                  Discord сообщество
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-[#1a1a1A] py-12 border-t border-gray-800">
         <div className="container mx-auto px-4 text-center">
